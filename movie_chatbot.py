@@ -28,7 +28,7 @@ COLLECTION_NAME = "movie_trivia"
 CHROMA_DIR = str(Path(".chroma") / COLLECTION_NAME)
 
 # Pinned to local Ollama model; change via env if desired
-LLM_MODEL = os.getenv("LLM_MODEL", "llama3.2").strip()  # e.g., llama3 or mistral
+LLM_MODEL = os.getenv("LLM_MODEL", "llama3.2").strip()  # e.g., llama3.2 or mistral
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL")  # e.g., http://localhost:11434
 
 # LangSmith / LangChain tracing support
