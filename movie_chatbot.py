@@ -19,7 +19,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
 from langchain_core.chat_history import InMemoryChatMessageHistory
 
-# --------------------- Config ---------------------
+# -------------------- Config --------------------
 APP_GREETING = (
     "Hello, I am MovieBot, your movie trivia expert. Ask me anything about films!"
 )
