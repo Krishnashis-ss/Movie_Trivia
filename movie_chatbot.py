@@ -14,12 +14,10 @@ import gradio as gr
 from langchain_community.document_loaders.pdf import PyPDFLoader
 from langchain.text_splitter import CharacterTextSplitter
 from langchain_ollama import OllamaEmbeddings, ChatOllama
-#from langchain_community.embeddings import OllamaEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_core.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
 from langchain_core.chat_history import InMemoryChatMessageHistory
-#from langchain_community.llms import Ollama  # local Ollama LLM
 
 # --------------------- Config ---------------------
 APP_GREETING = (

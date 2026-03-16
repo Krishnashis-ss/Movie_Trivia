@@ -1,0 +1,13 @@
+.env
+
+# Python virtual environment
+myvenv/
+
+# Chroma vector DB local data
+.chroma/
+
+# Local documentation (PDFs)
+Movie_Trivia_Chatbot_Project_Description.pdf
+movies_trivia.pdf
+
+
